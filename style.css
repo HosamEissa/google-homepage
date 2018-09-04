@@ -1,3 +1,28 @@
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.navbar li{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.navbar li:hover{
+}
 .middelpart{
     height: 450px;
     text-align: center;
