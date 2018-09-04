@@ -1,10 +1,21 @@
-.navbar{
+.navbar,.navbar2{
     list-style-type: none;
     overflow: hidden;
     background-color: white;
+    display: block;
 }
-li a{
+.navbar2{
+    background-color:#f2f2f2; 
+    bottom: 0px;
+}
+.navbar li a{
+    float: right;
+}
+.navbar2 li a{
     float: left;
+}
+
+li a{
     text-align: center;
     padding: 14px 16px;
     color: black;
@@ -15,13 +26,28 @@ li a:hover{
     color: blue;
     text-decoration: underline;
 }
-.navbar li:hover{
+.navbar2 .rightpart{
+    margin-left: 300px;
 }
 .middelpart{
     height: 450px;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 200px;
 }
 #logo {
     padding-top: 200px;
     
+}
+.searchbar{
+    width: 400px;
+}
+.btn{
+    background-color: rgb(242,242,242);
+    font-weight: bold;
+    border-bottom-color: #f2f2f2;
+    color: rgb(117,117,117);
+    margin: 10px 10px;
+    height: 40px;
+    width: 150px;
 }
